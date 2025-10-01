@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "androids",
+  "info": {
+    "singularName": "android",
+    "pluralName": "androids",
+    "displayName": "Android"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "targetVersion": {
+      "type": "string",
+      "required": true
+    },
+    "otaVersion": {
+      "type": "string",
+      "required": true
+    },
+    "note": {
+      "type": "text"
+    },
+    "bundle": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "sourceMap": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
