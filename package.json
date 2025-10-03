@@ -1,5 +1,10 @@
 {
   "name": "ota-strapi",
+  "maintainers": [{
+    "name": "tascan",
+    "email": "tascan.dev@gmail.com"
+  }
+  ],
   "version": "0.1.0",
   "private": true,
   "description": "A Strapi application",
