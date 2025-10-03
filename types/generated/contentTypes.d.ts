@@ -438,7 +438,7 @@ export interface ApiAndroidAndroid extends Struct.CollectionTypeSchema {
     singularName: 'android';
   };
   options: {
-    draftAndPublish: false;
+    draftAndPublish: true;
   };
   attributes: {
     bundle: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'> &

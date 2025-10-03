@@ -7,7 +7,7 @@
     "displayName": "Android"
   },
   "options": {
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
